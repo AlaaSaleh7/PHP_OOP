@@ -14,6 +14,9 @@ class Fruit {
         return "$this->firstFruit the favorite fruits"
     }
 }
-
-
+// 2.Create a class named Apple 
+//which inherits from the Fruit class add 1 additional property to it
+class Apple extends Fruit {
+    public $color = "Green";
+}
 ?>
